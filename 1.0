@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+int kyb() {
+	int kos;
+	int kos2;
+	kos =rand() % 6 + 1;
+	kos2 = rand() % 6 + 1;
+	cout << kos << endl;
+	cout << kos2 << endl;
+	return 0;
+}
+int main()
+{
+	srand(time(0));
+	kyb();
+
+}
